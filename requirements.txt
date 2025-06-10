@@ -1,4 +1,4 @@
 Flask
 python-docx
 PyPDF2
-python-wordpress-xml rpc
+python-wordpress-xmlrpc
