@@ -114,6 +114,9 @@ def upload_file():
     <p>Accepted file types: PDF, DOCX, TXT</p>
     '''
 
+@app.route('/')
+def home():
+    return '<h2>Welcome to the Resume Uploader</h2><p>Go to <a href="/upload">/upload</a> to submit a resume.</p>'
 
 # --- Run the Flask app
 if __name__ == '__main__':
